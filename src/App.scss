@@ -117,7 +117,11 @@
         margin: 0;
         padding: 0px 16px;
         font-size: 0.93rem;
-        font-weight: 500;
+        font-weight: 600;
+
+        .text-block {
+          font-weight: 400;
+        }
 
         a {
           text-decoration: none;
