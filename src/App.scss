@@ -1,12 +1,13 @@
 .App {
   text-align: center;
-  background-color: #9db2bf;
+  background-color: #181c14;
   font-family: 'Inter', serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   display: flex;
   justify-content: center;
+  color: #fff;
 
   .main-container {
     display: flex;
@@ -97,7 +98,7 @@
           }
 
           &.git {
-            color: #161b22;
+            color: #fff;
           }
 
           &.age {
@@ -147,6 +148,7 @@
         border: 1px solid #6c757d;
         font-weight: 400;
         white-space: nowrap;
+        color: #Fff;
         background-color: rgba(240, 240, 240, 0.3);
 
         &:hover {
@@ -155,7 +157,7 @@
 
         &.selected {
           background-color: #6c757d;
-          color: #fff;
+          color: #ddd;
         }
       }
     }
