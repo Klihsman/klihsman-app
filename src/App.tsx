@@ -1,24 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import profileImage from './assets/profile-image.png';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="main-container">
+        <div className='info-container'></div>
+        <div className="profile-container">
+          <img
+            src={profileImage}
+            className="profile-image"
+            alt="profile-image"
+          />
+          <span className="profile-user-name">Klihsman Freitas</span>
+          <div className="profile-tags">
+            <span className="profile-tag">#React</span>
+            <span className="profile-tag">#Angular</span>
+            <span className="profile-tag">#Typescript</span>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
