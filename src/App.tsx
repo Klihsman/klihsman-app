@@ -210,8 +210,15 @@ const App: React.FC = () => {
               <br />
             </ul>
             And much more that you will find out by{' '}
-            <a href="https://calendly.com/klihsman">scheduling</a> a call with
-            me
+            <a
+              className="profile-tag"
+              target="_blank"
+              rel="noreferrer"
+              href="https://calendly.com/klihsman"
+            >
+              scheduling
+            </a>
+            a call with me
           </p>
         </div>
       </div>
