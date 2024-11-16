@@ -1,5 +1,5 @@
 import './App.scss';
-import profileImage from './assets/profile-image.png';
+import profileImage from './assets/profile-image.jpg';
 import {
   PiGithubLogo,
   PiLinkedinLogoLight,
